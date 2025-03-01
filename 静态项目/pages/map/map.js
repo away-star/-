@@ -208,10 +208,10 @@ Page({
             },
             opacity: this.data.groundoverlay.opacity, //图层透明度
             success(res) {
-                // console.log('wp', res)
+                console.log('wp', res)
             },
             fail(err) {
-                // console.log('err', err)
+                console.log('err', err)
             }
         })
         this.mapCtx.setBoundary({
@@ -245,6 +245,8 @@ Page({
                 var nowlatitude = res.latitude
                 var nowlongitude = res.longitude
                 console.log("当前位置坐标", nowlatitude, nowlongitude)
+                // nowlatitude =  25.093668
+                // nowlongitude =  110.277685
                 if (nowlatitude > school_boundary.south && nowlatitude < school_boundary.north && nowlongitude > school_boundary.west && nowlongitude < school_boundary.east) {
                     that.setData({
                         mylocationmarker: {
@@ -268,6 +270,7 @@ Page({
                             longitude: nowlongitude,
                         }
                     })
+                    console.log("good")
                 } else {
                     that.setData({
                         mylocationmarker: {
@@ -291,7 +294,7 @@ Page({
                             longitude: default_point.longitude,
                         }
                     })
-
+                    console.log("fail")
                     wx.showToast({
                         title: '当前位置不在校区内\n默认位置设为' + that.data.default_point.name,
                         icon: 'none',

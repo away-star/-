@@ -20,4 +20,5 @@ page {
     text-align: center;
     font-size: small;
     color: gray;
+    margin-top: 40px;
 }

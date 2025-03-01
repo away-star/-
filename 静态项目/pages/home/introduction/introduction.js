@@ -1,4 +1,4 @@
-// pages/home/introduction/introduction.js
+// pages/home/introduction/book.js
 var school = require('../../../data/school')
 var media = require('../../../data/media')
 const app = getApp()

@@ -36,6 +36,7 @@ Page({
     scale: map_data.scale,
     // 最小缩放级别，比缩放级别小0.2-0.3为宜
     minscale: map_data.minscale,
+    maxscale: map_data.maxscale,
 
     // 地图边界
     boundary: map_data.boundary,
@@ -88,16 +89,16 @@ Page({
     this.mapCtx = wx.createMapContext('map')
     
     var boundary = this.data.boundary
-    // this.mapCtx.setBoundary({
-    //   southwest: { //西南角
-    //     latitude: boundary.southwest_latitude,
-    //     longitude: boundary.southwest_longitude,
-    //   },
-    //   northeast: { //东北角
-    //     latitude: boundary.northeast_latitude,
-    //     longitude: boundary.northeast_longitude,
-    //   }
-    // })
+    this.mapCtx.setBoundary({
+      southwest: { //西南角
+        latitude: boundary.southwest_latitude,
+        longitude: boundary.southwest_longitude,
+      },
+      northeast: { //东北角
+        latitude: boundary.northeast_latitude,
+        longitude: boundary.northeast_longitude,
+      }
+    })
 
     var groundoverlay = this.data.groundoverlay
     var map_bottom = this.data.map_bottom

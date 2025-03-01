@@ -319,3 +319,25 @@
   mix-blend-mode: screen;
   border-radius: 10px;
 }
+
+/* pages/home/home.wxss */
+
+.fixed-button {
+  position: fixed;
+  right: 20rpx;
+  bottom: 20rpx;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  background-color: #07c160;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4rpx 8rpx rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+.fixed-button-icon {
+  width: 60rpx;
+  height: 60rpx;
+}

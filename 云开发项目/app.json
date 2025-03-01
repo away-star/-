@@ -18,7 +18,8 @@
         "pages/admin/manage-site/manage-site",
         "pages/admin/manage-site/getpoint/getpoint",
         "pages/admin/adminmanage/adminmanage",
-        "pages/admin/manage-admin/manage-admin"
+        "pages/admin/manage-admin/manage-admin",
+        "pages/chat/chat"
     ],
     "window": {
         "backgroundTextStyle": "light",

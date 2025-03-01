@@ -1,4 +1,4 @@
-<!--pages/home/introduction/introduction.wxml-->
+<!--pages/home/introduction/book.wxml-->
 <swiper class="swiper-item" indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorColor}}" indicator-active-color="{{activeColor}}" autoplay="{{autoplay}}" circular="{{circular}}" interval="{{interval}}" duration="{{duration}}">
     <block wx:for="{{background}}" wx:key="*this">
         <swiper-item>
@@ -24,16 +24,18 @@
 </view>
 
 <view class="text-font">
-    <text user-select="true" decode="true">&emsp;&emsp;{{school_information.text}}</text>
+    <text user-select="true" decode="true">&emsp;&emsp;{{school_information.text1}}</text>
+    <text user-select="true" decode="true">&emsp;&emsp;{{school_information.text2}}</text>
+    <text user-select="true" decode="true">&emsp;&emsp;{{school_information.text3}}</text>
 </view>
 
-<view class="video-font" wx:if="{{videourl}}">
-    学校风光
-</view>
+<!--<view class="video-font" wx:if="{{videourl}}">-->
+<!--    学校风光-->
+<!--</view>-->
 
-<view class="video" wx:if="{{videourl}}">
-    <video initial-time="1" src="{{videourl}}" />
-</view>
+<!--<view class="video" wx:if="{{videourl}}">-->
+<!--    <video initial-time="1" src="{{videourl}}" />-->
+<!--</view>-->
 
 <view class="bottom-font">
     信息来源：学校官网

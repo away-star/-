@@ -1,4 +1,4 @@
-/* pages/home/introduction/introduction.wxss */
+/* pages/home/introduction/book.wxss */
 .swiper-item {
     height: 420rpx;
 }

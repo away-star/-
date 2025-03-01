@@ -1,0 +1,3 @@
+<view>
+    <web-view  src="https://coze-ai.vercel.app/" />
+</view>

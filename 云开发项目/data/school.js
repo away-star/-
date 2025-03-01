@@ -7,21 +7,21 @@ module.exports = {
   // 学校信息
   school_information: {
     // 学校全称
-    school_name_full: "桂林学院",
+    school_name_full: "云南大学",
     // 学校英文名
-    school_name_English_full: "Guilin University",
+    school_name_English_full: "Yunnan University",
     // 校规校训
-    motto: "向学·向善·自律·自强",
+    motto: "自尊、致知、正义、力行",
     // 学校荣誉
     honor: "广西优秀民办高等学校",
     // 建校时间
     build_time: 2001,
     // 办校类型
-    school_type: "民办",
+    school_type: "公办",
     // 院校类型
     institution_type: "综合类",
     // 学校所在地
-    location: "广西桂林・雁山",
+    location: "云南昆明・呈贡",
     // 学校简介
     text: "桂林学院（Guilin University 代码：13641）是一所经教育部批准设置的国有民办普通本科高校，由广西壮族自治区教育厅主管、桂林新城投资开发集团有限公司举办。学校前身系广西师范大学与社会投资方于2001年5月合作创办的广西师范大学漓江学院；2004年1月，经教育部确认取得“独立学院”办学资格；2021年5月，教育部致函广西壮族自治区人民政府，同意广西师范大学漓江学院转设并更名为桂林学院。"
   },

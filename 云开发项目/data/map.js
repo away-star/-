@@ -4,7 +4,7 @@ module.exports = {
   // 地图部分参数
 
   // 腾讯位置服务API
-  mapKey: "E6YBZ-GBZK4-4GLUN-DLZZR-G67ME-IWBWY",
+  mapKey: "MIXBZ-VPPK4-P24UV-FL3OA-5YHMH-L7FYQ",
 
   // 学校精确坐标（用于地图定位和获取天气数据）
   longitude: 110.277685,

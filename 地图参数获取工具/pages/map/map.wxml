@@ -1,5 +1,5 @@
 <!--pages/map/map.wxml-->
-<map id="map" latitude="{{latitude}}" longitude="{{longitude}}" scale="{{scale}}" min-scale="{{minscale}}" show-location="{{showLocation}}" enable-poi="{{enablepoi}}" polyline="{{polyline}}" polygons="{{polygons}}" bindtap="onTapMap" bindregionchange="bindregionchange">
+<map id="map" latitude="{{latitude}}" longitude="{{longitude}}" scale="{{scale}}" min-scale="{{minscale}}"  max-scale="{{maxscale}}" show-location="{{showLocation}}" enable-poi="{{enablepoi}}" polyline="{{polyline}}" polygons="{{polygons}}" bindtap="onTapMap" bindregionchange="bindregionchange">
   <image src="{{plus}}" class="control-btn control-btn-increase" bindtap="onIncreaseScale"></image>
   <image src="{{minus}}" class="control-btn control-btn-decrease" bindtap="onDecreaseScale"></image>
 </map>

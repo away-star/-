@@ -233,4 +233,11 @@ Page({
             url: "../../pages/home/introduction/introduction",
         })
     },
+
+    // 跳转到新页面
+    navigateToNewPage: function () {
+        wx.navigateTo({
+            url: '/pages/newPage/newPage' // 替换为你要跳转的页面路径
+        });
+    }
 })
